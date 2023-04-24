@@ -43,24 +43,27 @@ export const CardList = () => {
   };
   return (
     <>
-      <ul className={css.cardsList}>
-        {users?.slice(0, displayCount).map(user => {
-          return (
-            <Card key={user.id} userInfo={user} clickFollow={handleClick} />
-          );
-        })}
-      </ul>
-      {users.length !== displayCount ? (
-        <button onClick={onLoadMore} className={css.loadMoreBtn}>
-          Load More
-        </button>
-      ) : (
-        <p className={css.theEndOfList}>Oops! This is the end</p>
+      {users.length > 0 && (
+        <>
+          <ul className={css.cardsList}>
+            {users?.slice(0, displayCount).map(user => {
+              return (
+                <Card key={user.id} userInfo={user} clickFollow={handleClick} />
+              );
+            })}
+          </ul>
+          {users?.length !== displayCount ? (
+            <button onClick={onLoadMore} className={css.loadMoreBtn}>
+              Load More
+            </button>
+          ) : (
+            <p className={css.theEndOfList}>Oops! This is the end</p>
+          )}
+        </>
       )}
     </>
   );
 };
-
 
 Card.propTypes = {
   userInfo: PropTypes.shape({
