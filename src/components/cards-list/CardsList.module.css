@@ -1,0 +1,41 @@
+.cardsList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  list-style: none;
+  justify-content: center;
+  margin-top: 50px;
+  padding: 0;
+}
+.loadMoreBtn,
+.theEndOfList {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 28px;
+  width: 196px;
+  height: 50px;
+
+  background: #ebd8ff;
+  box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
+  border-radius: 10.3108px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #373737;
+  margin: 50px auto;
+  cursor: pointer;
+}
+
+.loadMoreBtn:hover {
+  background: rgba(235, 216, 255, 0.8);
+}
+.theEndOfList {
+  cursor: default;
+  text-align: center;
+  background: #5cd3a8;
+}
