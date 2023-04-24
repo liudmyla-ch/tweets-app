@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/tweets-app/static/css/main.c96b3928.css",
-    "main.js": "/tweets-app/static/js/main.82111a7d.js",
+    "main.js": "/tweets-app/static/js/main.89069e39.js",
     "static/media/Montserrat-VariableFont_wght.ttf": "/tweets-app/static/media/Montserrat-VariableFont_wght.3faa3eef13649db02044.ttf",
     "static/media/picture1.png": "/tweets-app/static/media/picture1.032662a2a907475127d7.png",
     "static/media/Logo.svg": "/tweets-app/static/media/Logo.e917114d7945c04c85a8946a331d28b6.svg",
     "index.html": "/tweets-app/index.html",
     "main.c96b3928.css.map": "/tweets-app/static/css/main.c96b3928.css.map",
-    "main.82111a7d.js.map": "/tweets-app/static/js/main.82111a7d.js.map"
+    "main.89069e39.js.map": "/tweets-app/static/js/main.89069e39.js.map"
   },
   "entrypoints": [
     "static/css/main.c96b3928.css",
-    "static/js/main.82111a7d.js"
+    "static/js/main.89069e39.js"
   ]
 }
