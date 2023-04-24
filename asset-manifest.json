@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/react-homework-template/static/css/main.7acaea2f.css",
-    "main.js": "/react-homework-template/static/js/main.07d3183d.js",
-    "index.html": "/react-homework-template/index.html",
-    "main.7acaea2f.css.map": "/react-homework-template/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/react-homework-template/static/js/main.07d3183d.js.map"
+    "main.css": "/tweets-app/static/css/main.c96b3928.css",
+    "main.js": "/tweets-app/static/js/main.82111a7d.js",
+    "static/media/Montserrat-VariableFont_wght.ttf": "/tweets-app/static/media/Montserrat-VariableFont_wght.3faa3eef13649db02044.ttf",
+    "static/media/picture1.png": "/tweets-app/static/media/picture1.032662a2a907475127d7.png",
+    "static/media/Logo.svg": "/tweets-app/static/media/Logo.e917114d7945c04c85a8946a331d28b6.svg",
+    "index.html": "/tweets-app/index.html",
+    "main.c96b3928.css.map": "/tweets-app/static/css/main.c96b3928.css.map",
+    "main.82111a7d.js.map": "/tweets-app/static/js/main.82111a7d.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.c96b3928.css",
+    "static/js/main.82111a7d.js"
   ]
 }
